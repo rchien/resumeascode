@@ -1,0 +1,204 @@
+meta:
+  theme: elegant
+basics:
+  name: Richard Chien
+  email: rchien@gmail.com
+  phone: 778-836-7174
+  location:
+    address: "Vancouver, BC"
+  website: "https://www.richardchien.com"
+  profiles:
+    - network: github
+      username: rchien
+      url: "https://github.com/rchien"
+education:
+  - institution: Certified Xamarin Mobile DEveloper
+    endDate: "2014"
+  - area: Computer Science (Software Engineering Specialization)
+    endDate: "2004"
+    institution: Simon Fraser University
+    studyType: BS
+work:
+  - company: Activision
+    position: Expert Data Engineer
+    startDate: "2019-12-01"
+    highlights:
+      - High performance ingest
+      - cool thing b
+      - ""
+    summary: activision work
+  - highlights:
+      - >-
+        Introduce multi-layer caching for reverse geocoding with consistent 35+%
+        cache hit translating to similar savings in cloud cost.
+      - >-
+        Accelerate insurance initiative setting up Spark data pipeline to ingest
+        1hz and 5hz accelerometer data at scale in a cost-effective manner.
+      - >-
+        Spearhead proof-of-concepts that guide future directions of the
+        platform. Some initiatives include Protobuf encoding, Kafka connect, Git
+        repo consolidation, database change data capture (CDC), and others.
+      - >-
+        Foster a culture of collaborative solution delivery in an innovative
+        manner
+      - Mentor and train development team and future team leads
+      - >-
+        Coordinate distributed teams in 4+ time zones to deliver expected
+        solutions on time
+    company: Mojio
+    position: Tech Lead - Core Platform
+    location: Vancouver
+    startDate: "2017"
+    summary: >-
+      Dual role of core data / software engineer on vehicle platform and tech
+      lead for asset tracker platform. Responsible for end-to-end delivery of
+      asset tracking solution while tackling scale and architecture challenges
+      on vehicle platform. Guide overall platform architecture to align with
+      business goals.
+  - highlights:
+      - >-
+        Remove major technical blocker paramount to business survival with SSO
+        solution for domain-joined devices in 1 week instead of original
+        estimate of 2 months.
+      - >-
+        Launch next generation big data pipeline with lambda architecture using
+        Azure Data Factory, Data Lake Analytics, and Stream Analytics. Provide
+        cost effective solutions to Colligo’s analytic challenges for years to
+        come.
+      - >-
+        Amplify Colligo’s Azure effort by cultivating and leveraging
+        relationship with Microsoft. Identify and solve excessive storage cost
+        within 1 day working with cloud architect from Microsoft.
+      - >-
+        Address improper DI resource cleanup within 3 months of starting. Draft
+        short-term (App Auto Healing) and long-term (Proper Ninject integration)
+        solutions to ensure business continuity. Increase platform stability,
+        reduce DevOps effort infrastructure cost.
+      - >-
+        Learn and develop PowerBI dashboard over weekend to demonstrate value of
+        open data. Assist sales and marketing to better measure and improve
+        product adoption leading to more revenue.
+    company: Colligo
+    position: Sr. Full-stack Developer / Tech Lead - Cloud Platform
+    startDate: "2015"
+    endDate: "2017"
+    summary: >-
+      Lead a small team of developers advancing Colligo’s SaaS platform
+      supporting mobile and desktop apps. Solidify strategies to accelerate
+      cloud adoption and enable linear scaling. Deliver value-added features
+      while hedging bets on related technologies such as PowerBI and machine
+      learning.
+skills:
+  - name: Languages
+    keywords:
+      - >-
+        Java, Python, Scala, JavaScript, C#, Kotlin, Typescript, C++, Ruby,
+        Haskell, Octave
+  - name: Frameworks & Libraries
+    keywords:
+      - Arrow
+      - Pandas
+      - Numpy
+  - name: Data
+    keywords:
+      - "Kafka, Spark, Flink, Eventhub, Airflow, Hadoop"
+  - name: Distributed Storage
+    keywords:
+      - "Object Store (S3, GCS, ADL), HDFS, Hive, Delta, Iceberg, Presto"
+  - name: Database
+    keywords:
+      - >-
+        SQL, Redis, ElasticSearch, MongoDB, Couchbase, CosmosDB, Couchbase,
+        Cassandra, Firebase
+  - name: Coud
+    keywords:
+      - >-
+        Azure, GCP, AWS, Kubernetes, Service Fabric, Istio, Docker, Containers,
+        Terraform
+  - name: Programming Tools
+    keywords:
+      - Git
+      - UML
+      - Profiler (JFR
+      - async-profiler)
+      - Microbenchmark (JMH)
+      - argoCD
+      - Jenkins
+      - Bash
+      - PowerShell
+      - Wireshark
+  - name: Testing
+    keywords:
+      - Unit testing
+      - Mocking
+      - BDD
+      - Load/Stress testing (JMeter
+      - Locust)
+      - User Acceptance Testing (Selenium)
+  - name: Protocols & Formats
+    keywords:
+      - HTTP
+      - REST
+      - Protobuf
+      - OAuth
+      - AzureAD
+      - ADFS
+      - SOAP
+      - gRPC
+      - GraphQL
+      - OpenIdConnect
+      - Thrift
+      - FlatBuffers
+      - UDP
+      - TCP/IP
+  - name: OS
+    keywords:
+      - Linux (CentOS, Ubuntu)
+      - Windows
+      - macOS
+      - Android
+      - iOS
+  - name: Business Intelligence
+    keywords:
+      - Google Tag Manager
+      - PowerBI
+      - Google Analytics
+      - SQL Service Broker
+      - SSIS
+      - SQL Reporting
+  - name: Other
+    keywords:
+      - Machine Learning
+      - Blockchain
+      - OpenGL
+projects:
+  - url: ""
+    keywords:
+      - ""
+    name: Passion for self-improvement
+    description: >-
+      Recognize areas needing improvement and able to take concrete actions.
+      With good time management skills, maintain a blog, obtain Xamarin
+      certification, keep up with latest Azure technologies and work on side
+      projects.
+  - keywords:
+      - ""
+    name: Speaking and mentoring
+    description: >-
+      Present at local meetups and company lunch-and-learn. Mentor developers at
+      different levels on a regular basis. Excel in introduction of new concepts
+      or technologies.
+  - keywords:
+      - ""
+    name: Bilingual
+    description: >-
+      Fluent in English and Chinese Mandarin. Proficient in writing and have
+      done numerous non-critical business translations
+interests:
+  - name: Gardening
+  - name: Music / Jamming
+  - name: Reading / Writing
+  - name: Open Source
+references:
+  - reference: ""
+    name: References Upon Request

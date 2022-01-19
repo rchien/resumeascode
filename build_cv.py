@@ -4,6 +4,7 @@ import argparse
 
 import yaml
 import jinja2
+from TemplateRenderer import TemplateRenderer
 
 sys.path.append(os.path.dirname(os.path.realpath(__file__)))
 import filters
@@ -80,13 +81,19 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Build TeX and Markdown versions of your CV')
     cur_dir = os.path.dirname(os.path.realpath(__file__))
     parser.add_argument("--cv_data", help="YAML config file containing all CV data",
-                        default=os.path.join(cur_dir, 'cv_data.yml'))
+                        default=os.path.join(cur_dir, 'resume.yml'))
     parser.add_argument("--md_out_file", help="where to write markdown version of CV")
     parser.add_argument("--html_out_file", help="where to write HTML version of CV")
     parser.add_argument("--tex_out_file", help="where to write TeX version of CV")
     parser.add_argument("--tex_short_out_file", help="where to write short TeX version of CV")
     parser.add_argument("--pdf_link", help="where to link to PDF version of CV")
     args = parser.parse_args()
+
+    renderer = TemplateRenderer()
+    renderer.use_from_folder("Awesome-CV")
+    d = renderer.list_templates()
+    print(d)
+
     # build cv
     filters = [
         filters.escape_tex,
