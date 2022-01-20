@@ -81,7 +81,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Build TeX and Markdown versions of your CV')
     cur_dir = os.path.dirname(os.path.realpath(__file__))
     parser.add_argument("--cv_data", help="YAML config file containing all CV data",
-                        default=os.path.join(cur_dir, 'resume.yml'))
+                        default=os.path.join(cur_dir, 'resume.yaml'))
     parser.add_argument("--md_out_file", help="where to write markdown version of CV")
     parser.add_argument("--html_out_file", help="where to write HTML version of CV")
     parser.add_argument("--tex_out_file", help="where to write TeX version of CV")
@@ -89,10 +89,10 @@ if __name__ == '__main__':
     parser.add_argument("--pdf_link", help="where to link to PDF version of CV")
     args = parser.parse_args()
 
-    renderer = TemplateRenderer()
-    renderer.use_from_folder("Awesome-CV")
-    d = renderer.list_templates()
-    print(d)
+    # renderer = TemplateRenderer()
+    # renderer.use_from_folder("Awesome-CV")
+    # d = renderer.list_templates()
+    # print(d)
 
     # build cv
     filters = [
